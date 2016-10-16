@@ -1,0 +1,27 @@
+body {
+	font-size: 62.5%;
+	color: $black;
+}
+
+a {
+	color: $color-highlight;
+	text-decoration: none;
+}
+
+main {
+	position: relative;
+	top: -5rem;
+	min-height: 10rem;
+	background: $white;
+	width: 80%;
+	max-width: 50rem;
+	margin: 0 auto;
+	padding: 1.5rem 2rem;
+	box-shadow: 0 0 4rem -1.5rem $black;
+
+	&::after {
+		clear: both;
+		display: block;
+		content: '';
+	}
+}

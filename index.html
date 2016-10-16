@@ -1,0 +1,35 @@
+---
+---
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body>
+		{% include header.html %}
+		<main>
+			{% for post in paginator.posts %}
+			<article class="post-excerpt">
+				<h2 class="article-title">
+					<a href="{{ post.url }}">{{ post.title }}</a>
+				</h2>
+				<div class="article-meta">{{ post.date | date: '%B %d, %Y' }}</div>
+				<div class="article-body">
+					{{ post.excerpt }} <a href="{{ post.url }}">[read more...]</a>
+				</div>
+			</article>
+			{% endfor %}
+			<footer class="article-links">
+				<a href="{{ paginator.previous_page_path }}" >
+					{% if paginator.previous_page %} < newer
+					{% else %}
+					{% endif %}
+				</a>
+				<a href="{{ paginator.next_page_path }}" class="older">
+					{% if paginator.next_page %} older >
+					{% else %}
+					{% endif %}
+				</a>
+			</footer>
+		</main>
+		<script src="/main.js" charset="utf-8"></script>
+	</body>
+</html>
