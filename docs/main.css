@@ -1,0 +1,106 @@
+body {
+  font-size: 62.5%;
+  color: #24270a; }
+
+a {
+  color: #A71E3A;
+  text-decoration: none; }
+
+main {
+  position: relative;
+  top: -5rem;
+  min-height: 10rem;
+  background: #fff;
+  width: 80%;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 0 4rem -1.5rem #24270a; }
+  main::after {
+    clear: both;
+    display: block;
+    content: ''; }
+
+nav {
+  height: 2.5rem;
+  background: #24270a;
+  font-family: "Special Elite", serif;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center; }
+  nav::after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 1rem; }
+
+.hero {
+  padding: 2rem;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2)), url("assets/poppy2.jpeg");
+  min-height: 30rem;
+  background-size: cover; }
+  .hero h1 {
+    margin: 1rem;
+    text-align: center;
+    font-family: "Special Elite", serif;
+    font-size: .8rem;
+    text-shadow: 0 0 10px #fff; }
+  .hero h2 {
+    margin: 0;
+    font-family: "Amatica SC", serif;
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 0 0 20px #fff; }
+    .hero h2 a {
+      color: #24270a;
+      text-decoration: none; }
+
+article::after {
+  content: '';
+  display: block;
+  width: 10%;
+  margin: 4.5rem auto 3.5rem;
+  border-bottom: 2px dotted #A71E3A; }
+article:last-of-type::after {
+  border-bottom: 0; }
+article .article-title {
+  font-family: "Amatica SC", serif;
+  font-size: 3.5rem;
+  margin: 0; }
+  article .article-title a {
+    text-decoration: none;
+    color: #24270a; }
+article .article-meta {
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-family: "Special Elite", serif; }
+article .article-body {
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+  margin: 1rem 0 1.6rem; }
+  article .article-body p {
+    margin: 1rem 0;
+    letter-spacing: .05rem;
+    line-height: 1.3rem; }
+
+.article-links {
+  width: 25%;
+  margin: 2rem auto; }
+  .article-links::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .article-links a {
+    font-family: "Special Elite", serif;
+    font-size: 1rem;
+    display: block;
+    text-decoration: none;
+    float: left; }
+    .article-links a.older {
+      float: right; }

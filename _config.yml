@@ -22,6 +22,7 @@ url: "http://comment.nicerhugs.com"
 github_username: nicerhugs
 
 # Build settings
+destination: docs
 markdown: kramdown
 theme: minima
 gems:
