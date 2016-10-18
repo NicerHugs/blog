@@ -1,10 +1,45 @@
 body {
   font-size: 62.5%;
-  color: #24270a; }
+  color: #24270a;
+  font-family: "Lato", sans-serif; }
 
 a {
   color: #A71E3A;
   text-decoration: none; }
+
+h2 {
+  font-family: "Amatica SC", serif;
+  font-size: 3.5rem;
+  margin: 0; }
+
+p {
+  margin: 1rem 0;
+  letter-spacing: .05rem;
+  line-height: 1.4rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem; }
+
+blockquote {
+  font-family: "Special Elite", serif;
+  font-size: 1rem;
+  line-height: 2.18rem; }
+  blockquote::before {
+    content: "\"";
+    font-size: 2rem;
+    color: #A71E3A;
+    vertical-align: top; }
+  blockquote::after {
+    content: "\"";
+    font-size: 2rem;
+    color: #A71E3A;
+    vertical-align: top; }
+
+cite {
+  font-size: .8rem;
+  position: relative;
+  top: -.7rem;
+  left: 3rem;
+  font-style: normal; }
 
 main {
   position: relative;
@@ -84,10 +119,6 @@ article .article-body {
   font-weight: lighter;
   font-size: 1rem;
   margin: 1rem 0 1.6rem; }
-  article .article-body p {
-    margin: 1rem 0;
-    letter-spacing: .05rem;
-    line-height: 1.3rem; }
 
 .article-links {
   width: 25%;
@@ -104,3 +135,26 @@ article .article-body {
     float: left; }
     .article-links a.older {
       float: right; }
+
+.about blockquote {
+  padding-top: 2rem;
+  margin-left: 35%;
+  width: 45%; }
+.about .about-wrapper {
+  position: relative;
+  background-image: url("/assets/bw.jpg");
+  background-repeat: no-repeat;
+  background-size: 50%; }
+  .about .about-wrapper img {
+    width: 50%;
+    position: absolute;
+    z-index: -1; }
+  .about .about-wrapper .mask {
+    float: left;
+    width: 50%;
+    border-radius: 0 57% 25% 0;
+    margin-left: 1rem;
+    -webkit-shape-outside: polygon(55% 0, 0 0, 0px 100%, 73% 100%, 99% 73%, 98% 65%, 90% 58%, 76% 53%, 86% 50%, 84% 23%, 79% 14%, 66% 5%);
+    shape-outside: polygon(55% 0, 0 0, 0px 100%, 73% 100%, 99% 73%, 98% 65%, 90% 58%, 76% 53%, 86% 50%, 84% 23%, 79% 14%, 66% 5%); }
+  .about .about-wrapper p {
+    margin-left: 37%; }

@@ -1,0 +1,34 @@
+.about {
+
+	blockquote {
+		padding-top: 2rem;
+		margin-left: 35%;
+		width: 45%;
+	};
+
+	.about-wrapper {
+		position: relative;
+		background-image: url("/assets/bw.jpg");
+		background-repeat: no-repeat;
+		background-size: 50%;
+
+		img {
+			width: 50%;
+			position: absolute;
+			z-index: -1;
+		}
+
+		.mask {
+			float: left;
+			width: 50%;
+			border-radius: 0 57% 25% 0;
+			margin-left: 1rem;
+			-webkit-shape-outside: polygon(55% 0, 0 0, 0px 100%, 73% 100%, 99% 73%, 98% 65%, 90% 58%, 76% 53%, 86% 50%, 84% 23%, 79% 14%, 66% 5%);
+			shape-outside: polygon(55% 0, 0 0, 0px 100%, 73% 100%, 99% 73%, 98% 65%, 90% 58%, 76% 53%, 86% 50%, 84% 23%, 79% 14%, 66% 5%);
+		}
+
+		p {
+			margin-left: 37%;
+		}
+	}
+}
