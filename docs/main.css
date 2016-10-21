@@ -47,7 +47,7 @@ main {
   min-height: 10rem;
   background: #fff;
   width: 80%;
-  max-width: 50rem;
+  max-width: 48rem;
   margin: 0 auto;
   padding: 1.5rem 2rem;
   box-shadow: 0 0 4rem -1.5rem #24270a; }
@@ -156,5 +156,3 @@ article .article-body {
     margin-left: 1rem;
     -webkit-shape-outside: polygon(55% 0, 0 0, 0px 100%, 73% 100%, 99% 73%, 98% 65%, 90% 58%, 76% 53%, 86% 50%, 84% 23%, 79% 14%, 66% 5%);
     shape-outside: polygon(55% 0, 0 0, 0px 100%, 73% 100%, 99% 73%, 98% 65%, 90% 58%, 76% 53%, 86% 50%, 84% 23%, 79% 14%, 66% 5%); }
-  .about .about-wrapper p {
-    margin-left: 37%; }
