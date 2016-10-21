@@ -4,4 +4,12 @@
 	<div class="article-body">
 		{{ page.content }}
 	</div>
+	<footer class="article-links">
+		{% if page.next %}
+		<a href="{{page.next.url}}" class="newer">< newer</a>
+		{% endif %}
+		{% if page.previous %}
+		<a href="{{page.previous.url}}" class="older">older ></a>
+		{% endif %}
+	</footer>
 </article>
