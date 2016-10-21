@@ -3,7 +3,7 @@ article {
 		content: '';
 		display: block;
 		width: 10%;
-		margin: 4.5rem auto 3.5rem;
+		margin: 7.2rem auto 5.6rem;
 		border-bottom: 2px dotted	 $color-highlight;
 	}
 
@@ -13,7 +13,7 @@ article {
 
 	.article-title {
 		font-family: $font-site-title;
-		font-size: 3.5rem;
+		font-size: 5.6rem;
 		margin: 0;
 
 		a {
@@ -23,16 +23,16 @@ article {
 	}
 
 	.article-meta {
-		font-size: 1rem;
-		margin: 1rem 0;
+		font-size: 1.6rem;
+		margin: 1.6rem 0;
 		font-family: $font-nav;
 	}
 
 	.article-body {
 		font-family: $font-body;
 		font-weight: lighter;
-		font-size: 1rem;
-		margin: 1rem 0 1.6rem;
+		font-size: 1.6rem;
+		margin: 1.6rem 0 2.56rem;
 	}
 }
 
@@ -42,7 +42,7 @@ article {
 
 .article-links {
 	width: 25%;
-	margin: 2rem auto;
+	margin: 3.2rem auto;
 
 	&::after {
 		content: '';
@@ -52,7 +52,7 @@ article {
 
 	a {
 		font-family: $font-nav;
-		font-size: 1rem;
+		font-size: 1.6rem;
 		display: block;
 		text-decoration: none;
 		float: left;
