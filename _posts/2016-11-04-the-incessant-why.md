@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 ---
 i ask why a lot. sometimes, possibly all the times, to a fault.
 
@@ -23,4 +24,4 @@ what i want the most is to _understand_. my experience is small. i am confined b
 
 here're some more why's: why are why's so triggering? why do we get defensive at a why, instead of simply answering it? why do we feel that a question about an opinion poses a threat?
 
-and then a few how's: how can we learn to become more open, more curious, and more free with our own analysis? how can we learn to share more, to learn more, to be more genuine in our selves and our opinions. how can we learn to trust  our experiences, to trust those we communicate with to not hold us to an agenda of persuasion, and to trust in the power of connecting with others to illuminate truths we could not find on our own? 
+and then a few how's: how can we learn to become more open, more curious, and more free with our own analysis? how can we learn to share more, to learn more, to be more genuine in our selves and our opinions. how can we learn to trust  our experiences, to trust those we communicate with to not hold us to an agenda of persuasion, and to trust in the power of connecting with others to illuminate truths we could not find on our own?

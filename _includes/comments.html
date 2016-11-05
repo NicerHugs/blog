@@ -1,3 +1,5 @@
+{% if page.comments %}
+
 <div id="disqus_thread"></div>
 <script type="text/javascript">
 
@@ -9,10 +11,12 @@ this.page.identifier = '{{ page.id }}';
 };
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
-s.src = 'http://comment-nicerhugs-com.disqus.com/embed.js';
+s.src = 'http://nicerhugs.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
 </script>
 
 <script id="dsq-count-scr" src="http://comment-nicerhugs-com.disqus.com/count.js" async></script>
+
+{% endif %}
