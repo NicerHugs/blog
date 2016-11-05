@@ -62,6 +62,9 @@ main {
     display: block;
     content: ''; }
 
+strong {
+  font-weight: 700; }
+
 nav {
   height: 4rem;
   background: #24270a;
