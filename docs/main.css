@@ -48,7 +48,6 @@ main {
   top: -8rem;
   min-height: 16rem;
   background: #fff;
-  width: 80%;
   max-width: 80rem;
   margin: 0 auto;
   padding: 3.4rem 5.2rem;
@@ -94,13 +93,25 @@ nav {
   .hero h2 {
     margin: 0;
     font-family: "Amatica SC", serif;
-    font-size: 9.6rem;
+    font-size: 16.5vw;
     text-align: center;
     text-shadow: 0 0 20px #fff; }
     .hero h2 a {
       color: #24270a;
       text-decoration: none; }
 
+@media (min-width: 440px) {
+  .hero h2 {
+    font-size: 16.5vw; } }
+@media (min-width: 580px) {
+  .hero h2 {
+    font-size: 9.6rem; } }
+@media (min-width: 440px) {
+  .hero h2 {
+    font-size: 7.6; } }
+@media (min-width: 440px) {
+  .hero h2 {
+    font-size: 7.6; } }
 article::after {
   content: '';
   display: block;
@@ -143,25 +154,32 @@ article .article-body {
 
 .about blockquote {
   padding-top: 3.2rem;
-  margin-left: 35%;
-  width: 45%; }
+  width: 85%; }
 .about .about-wrapper {
   position: relative;
   background-image: url("/assets/bw.jpg");
   background-repeat: no-repeat;
-  background-size: 50%; }
+  background-size: 100%; }
   .about .about-wrapper img {
-    width: 50%;
+    width: 100%;
     position: absolute;
     z-index: -1; }
-  .about .about-wrapper .mask {
-    float: left;
-    width: 50%;
-    border-radius: 0 57% 25% 0;
-    margin-left: 1.6rem;
-    -webkit-shape-outside: polygon(55% 0, 0 0, 0px 100%, 73% 100%, 99% 73%, 98% 65%, 90% 58%, 76% 53%, 86% 50%, 84% 23%, 79% 14%, 66% 5%);
-    shape-outside: polygon(55% 0, 0 0, 0px 100%, 73% 100%, 99% 73%, 98% 65%, 90% 58%, 76% 53%, 86% 50%, 84% 23%, 79% 14%, 66% 5%); }
 
+@media (min-width: 530px) {
+  .about blockquote {
+    margin-left: 35%;
+    width: 45%; }
+  .about .about-wrapper {
+    background-size: 50%; }
+    .about .about-wrapper img {
+      width: 50%; }
+    .about .about-wrapper .mask {
+      float: left;
+      width: 50%;
+      border-radius: 0 57% 25% 0;
+      margin-left: 1.6rem;
+      -webkit-shape-outside: polygon(55% 0, 0 0, 0px 100%, 73% 100%, 99% 73%, 98% 65%, 90% 58%, 76% 53%, 86% 50%, 84% 23%, 79% 14%, 66% 5%);
+      shape-outside: polygon(55% 0, 0 0, 0px 100%, 73% 100%, 99% 73%, 98% 65%, 90% 58%, 76% 53%, 86% 50%, 84% 23%, 79% 14%, 66% 5%); } }
 .archive .archive-link {
   font-size: 2rem;
   font-family: "Special Elite", serif; }
