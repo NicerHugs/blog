@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 comments: true
 ---
 I have heard about how the best teacher is someone who is just one step ahead of you. I think this is true of the stumble upon mentor, but not true of a professional educator. And I think promoting this idea does us a disservice by implying that mentorship is not itself a skill that can be learned, improved upon, and honed over time. With growth mindset, learning to teach is just as important as learning to learn. Those of us who find we forget what we know, or how to communicate with folks at significantly more beginner level than ourselves should learn to see this as a growth opportunity.
