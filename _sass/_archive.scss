@@ -5,16 +5,9 @@
 	}
 
 	li {
+		height: 34px;
 		margin-bottom: 1rem;
-
-		ul {
-			height: 0;
-			overflow: hidden;
-			transition: height .2s;
-		}
-
-		.open {
-			height: auto;
-		}
+		overflow: hidden;
+		transition: height .2s;
 	}
 }

@@ -1,15 +1,18 @@
-var uls = [].slice.call(document.querySelectorAll('.archive-by-year li ul'));
+var years = [].slice.call(document.querySelectorAll('.archive-by-year li'));
 
 window.addEventListener('hashchange', openYear)
 
 function openYear() {
 	var id = location.hash;
 	if (location.hash !== '') {
-		uls.forEach(function (ul) {
-			if (ul.id === id) {
-				ul.style.height = ul.children.length * 3.24 + 'rem';
+		years.forEach(function (li) {
+			if (li.id === id) {
+				var labelHeight = 34;
+				var childHeight = li.querySelector('.posts-list').clientHeight;
+				var totalHeight = labelHeight + childHeight + 'px';
+				li.style.height = totalHeight;
 			} else {
-				ul.style.height = '0';
+				li.style.height = '34px';
 			}
 		})
 	}

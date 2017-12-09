@@ -184,10 +184,7 @@ article .article-body {
   font-size: 2rem;
   font-family: "Special Elite", serif; }
 .archive li {
-  margin-bottom: 1rem; }
-  .archive li ul {
-    height: 0;
-    overflow: hidden;
-    transition: height .2s; }
-  .archive li .open {
-    height: auto; }
+  height: 34px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  transition: height .2s; }
